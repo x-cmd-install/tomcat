@@ -1,0 +1,65 @@
+about:
+  description: Apache Tomcat
+  license: Apache-2.0
+  homepage: https://tomcat.apache.org
+  head: 9f98160
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-08-30T05:34:22Z
+timeline:
+  created: 2011-10-01
+  lastCommit: 2026-08-28
+  lastRelease: ?
+popularity:
+  star: 8237
+  watcher: 473
+  fork: 5388
+  release: 0
+  contributor: 176
+  pullRequest: 726
+  issue: 0
+language:
+  Java: 24887944
+  HTML: 306679
+  Shell: 59562
+  Batchfile: 46163
+  NSIS: 43591
+  XSLT: 32790
+  CSS: 18919
+  Perl: 17780
+  Dockerfile: 2661
+  C: 1170
+totalLine: 25417259
+recent:
+  last30d:
+    since: 2026-07-31
+    release: 0
+    mergedPR: 14
+    openPR: 6
+    closedIssue: 0
+    openIssue: 0
+    commit: 89
+  last90d:
+    since: 2026-06-01
+    release: 0
+    mergedPR: 22
+    openPR: 9
+    closedIssue: 0
+    openIssue: 0
+    commit: 374
+  last180d:
+    since: 2026-03-03
+    release: 0
+    mergedPR: 58
+    openPR: 15
+    closedIssue: 0
+    openIssue: 0
+    commit: 849
+  last360d:
+    since: 2025-09-04
+    release: 0
+    mergedPR: 94
+    openPR: 21
+    closedIssue: 0
+    openIssue: 0
+    commit: 1355
