@@ -7,7 +7,7 @@ about:
   head: d4c3f29
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:49:35Z
+  collectedAt: 2026-09-04T20:52:16Z
 timeline:
   created: 2011-10-01
   lastCommit: 2026-09-04
@@ -89,6 +89,94 @@ total:
   openIssue: 0
   commit: 29038
 ---
+path: /home/runner/.x-repo/github.com/apache/tomcat
+collectedAt: 2026-09-04T20:52:33Z
+loc:
+  Java:
+    code: 382474
+    comments: 210745
+    blanks: 95841
+    files: 2821
+  Xml:
+    code: 54228
+    comments: 5454
+    blanks: 5500
+    files: 221
+  Html:
+    code: 3768
+    comments: 1539
+    blanks: 461
+    files: 98
+  Svg:
+    code: 2956
+    comments: 115
+    blanks: 66
+    files: 7
+  Batch:
+    code: 1116
+    comments: 0
+    blanks: 157
+    files: 12
+  Sh:
+    code: 1056
+    comments: 530
+    blanks: 191
+    files: 15
+  Css:
+    code: 771
+    comments: 98
+    blanks: 168
+    files: 5
+  XSL:
+    code: 740
+    comments: 135
+    blanks: 75
+    files: 4
+  Json:
+    code: 369
+    comments: 0
+    blanks: 3
+    files: 15
+  Perl:
+    code: 324
+    comments: 107
+    blanks: 51
+    files: 1
+  Bitbake:
+    code: 281
+    comments: 40
+    blanks: 51
+    files: 1
+  Yaml:
+    code: 36
+    comments: 14
+    blanks: 1
+    files: 1
+  Dockerfile:
+    code: 20
+    comments: 29
+    blanks: 12
+    files: 1
+  CHeader:
+    code: 14
+    comments: 15
+    blanks: 1
+    files: 1
+  Markdown:
+    code: 0
+    comments: 1110
+    blanks: 586
+    files: 8
+  Text:
+    code: 0
+    comments: 2127
+    blanks: 789
+    files: 43
+total:
+  code: 448188
+  comments: 222068
+  blanks: 103958
+  files: 3254
 ---
 date: "2026-08-24"
 repo:
