@@ -2,16 +2,16 @@ about:
   description: "Apache Tomcat"
   license: Apache-2.0
   homepage: https://tomcat.apache.org
-  head: 3059430
+  head: a5ca3cf
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-07T05:00:44Z
+  collectedAt: 2026-09-07T19:32:49Z
 timeline:
   created: 2011-10-01
-  lastCommit: 2026-09-06
+  lastCommit: 2026-09-07
   lastRelease: 
 popularity:
-  star: 8242
+  star: 8243
   watcher: 474
   fork: 5391
   release: 0
@@ -19,7 +19,7 @@ popularity:
   pullRequest: 1057
   issue: 0
 language:
-  Java: 24945522
+  Java: 24951452
   HTML: 306679
   Shell: 59562
   Batchfile: 46163
@@ -29,7 +29,7 @@ language:
   Perl: 17780
   Dockerfile: 2661
   C: 1170
-totalBytes: 25474837
+totalBytes: 25480767
 recent:
   last30d:
     since: 2026-08-08
@@ -38,7 +38,7 @@ recent:
     openPR: 13
     closedIssue: 0
     openIssue: 0
-    commit: 111
+    commit: 112
   last60d:
     since: 2026-07-09
     release: 0
@@ -46,7 +46,7 @@ recent:
     openPR: 15
     closedIssue: 0
     openIssue: 0
-    commit: 207
+    commit: 208
   last90d:
     since: 2026-06-09
     release: 0
@@ -54,7 +54,7 @@ recent:
     openPR: 17
     closedIssue: 0
     openIssue: 0
-    commit: 392
+    commit: 393
   last180d:
     since: 2026-03-11
     release: 0
@@ -62,7 +62,7 @@ recent:
     openPR: 23
     closedIssue: 0
     openIssue: 0
-    commit: 882
+    commit: 883
   last360d:
     since: 2025-09-12
     release: 0
@@ -70,7 +70,7 @@ recent:
     openPR: 29
     closedIssue: 0
     openIssue: 0
-    commit: 1373
+    commit: 1374
   last720d:
     since: 2024-09-17
     release: 0
@@ -78,25 +78,25 @@ recent:
     openPR: 31
     closedIssue: 0
     openIssue: 0
-    commit: 2472
+    commit: 2473
 total:
   release: 0
   mergedPR: 321
   openPR: 44
   closedIssue: 0
   openIssue: 0
-  commit: 29041
+  commit: 29042
 ---
 path: /home/runner/.x-repo/github.com/apache/tomcat
-collectedAt: 2026-09-07T05:01:30Z
+collectedAt: 2026-09-07T19:33:38Z
 loc:
   Java:
-    code: 382522
-    comments: 210782
-    blanks: 95851
+    code: 382582
+    comments: 210828
+    blanks: 95888
     files: 2821
   Xml:
-    code: 54230
+    code: 54235
     comments: 5454
     blanks: 5500
     files: 221
@@ -171,9 +171,9 @@ loc:
     blanks: 789
     files: 43
 total:
-  code: 448238
-  comments: 222105
-  blanks: 103968
+  code: 448303
+  comments: 222151
+  blanks: 104005
   files: 3254
 ---
 date: "2026-08-24"
@@ -301,7 +301,7 @@ checks:
       - 'Warn: 2 commits out of 9 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:01:31+00:00
+  collectedAt: 2026-09-07T19:33:40+00:00
   platform:
     darwin/arm64:
       name:  null
