@@ -5,7 +5,7 @@ about:
   head: 8e567eb
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-08T02:17:53Z
+  collectedAt: 2026-09-08T05:07:04Z
 timeline:
   created: 2011-10-01
   lastCommit: 2026-09-07
@@ -16,7 +16,7 @@ popularity:
   fork: 5391
   release: 0
   contributor: 162
-  pullRequest: 1057
+  pullRequest: 1058
   issue: 0
 language:
   Java: 24951452
@@ -35,7 +35,7 @@ recent:
     since: 2026-08-09
     release: 0
     mergedPR: 10
-    openPR: 13
+    openPR: 14
     closedIssue: 0
     openIssue: 0
     commit: 113
@@ -43,7 +43,7 @@ recent:
     since: 2026-07-10
     release: 0
     mergedPR: 15
-    openPR: 15
+    openPR: 16
     closedIssue: 0
     openIssue: 0
     commit: 209
@@ -51,7 +51,7 @@ recent:
     since: 2026-06-10
     release: 0
     mergedPR: 18
-    openPR: 17
+    openPR: 18
     closedIssue: 0
     openIssue: 0
     commit: 394
@@ -59,7 +59,7 @@ recent:
     since: 2026-03-12
     release: 0
     mergedPR: 57
-    openPR: 23
+    openPR: 24
     closedIssue: 0
     openIssue: 0
     commit: 884
@@ -67,7 +67,7 @@ recent:
     since: 2025-09-13
     release: 0
     mergedPR: 92
-    openPR: 29
+    openPR: 30
     closedIssue: 0
     openIssue: 0
     commit: 1375
@@ -75,20 +75,20 @@ recent:
     since: 2024-09-18
     release: 0
     mergedPR: 131
-    openPR: 31
+    openPR: 32
     closedIssue: 0
     openIssue: 0
     commit: 2472
 total:
   release: 0
   mergedPR: 321
-  openPR: 44
+  openPR: 45
   closedIssue: 0
   openIssue: 0
   commit: 29043
 ---
 path: /home/runner/.x-repo/github.com/apache/tomcat
-collectedAt: 2026-09-08T02:18:31Z
+collectedAt: 2026-09-08T05:07:44Z
 loc:
   Java:
     code: 382582
