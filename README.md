@@ -5,9 +5,9 @@ Apache Tomcat
 - **Upstream**: <https://github.com/apache/tomcat>
 - **Homepage**: <https://tomcat.apache.org>
 - **Latest release**: `` (n/a)
-- **Last commit**: 2026-09-08
+- **Last commit**: 2026-09-09
 - **License**: Apache-2.0
-- **Stars**: 8244 · **Forks**: 5393 · **Open issues**: 0 · **Contributors**: 162
+- **Stars**: 8243 · **Forks**: 5394 · **Open issues**: 0 · **Contributors**: 162
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/tomcat> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T05:29:08Z._
+_Last regenerated: 2026-09-09T19:30:10Z._
