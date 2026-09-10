@@ -2,12 +2,12 @@ about:
   description: "Apache Tomcat"
   license: Apache-2.0
   homepage: https://tomcat.apache.org
-  head: 05b5d70
+  head: 8569d52
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:34:22Z
+  collectedAt: 2026-09-10T22:15:38Z
 timeline:
   created: 2011-10-01
   lastCommit: 2026-09-10
@@ -23,7 +23,7 @@ popularity:
   pullRequest: 1060
   issue: 0
 language:
-  Java: 25025940
+  Java: 25025950
   HTML: 306679
   Shell: 59562
   Batchfile: 46163
@@ -33,7 +33,7 @@ language:
   Perl: 17780
   Dockerfile: 2661
   C: 1170
-totalBytes: 25555255
+totalBytes: 25555265
 recent:
   last30d:
     since: 2026-08-11
@@ -42,7 +42,7 @@ recent:
     openPR: 15
     closedIssue: 0
     openIssue: 0
-    commit: 124
+    commit: 125
   last60d:
     since: 2026-07-12
     release: 0
@@ -50,7 +50,7 @@ recent:
     openPR: 17
     closedIssue: 0
     openIssue: 0
-    commit: 220
+    commit: 221
   last90d:
     since: 2026-06-12
     release: 0
@@ -58,7 +58,7 @@ recent:
     openPR: 19
     closedIssue: 0
     openIssue: 0
-    commit: 405
+    commit: 406
   last180d:
     since: 2026-03-14
     release: 0
@@ -66,7 +66,7 @@ recent:
     openPR: 24
     closedIssue: 0
     openIssue: 0
-    commit: 895
+    commit: 896
   last360d:
     since: 2025-09-15
     release: 0
@@ -74,7 +74,7 @@ recent:
     openPR: 31
     closedIssue: 0
     openIssue: 0
-    commit: 1386
+    commit: 1387
   last720d:
     since: 2024-09-20
     release: 0
@@ -82,17 +82,17 @@ recent:
     openPR: 33
     closedIssue: 0
     openIssue: 0
-    commit: 2476
+    commit: 2477
 total:
   release: 0
   mergedPR: 321
   openPR: 42
   closedIssue: 0
   openIssue: 0
-  commit: 29055
+  commit: 29056
 ---
 path: /home/runner/.x-repo/github.com/apache/tomcat
-collectedAt: 2026-09-10T21:35:06Z
+collectedAt: 2026-09-10T22:16:20Z
 loc:
   Java:
     code: 383374
