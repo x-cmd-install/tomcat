@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 321 · **Open PRs**: 42 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29055
+- **Releases**: 0 · **Merged PRs**: 321 · **Open PRs**: 42 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29056
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 10 | 15 | 0 | 0 | 124 |
-| last60d | 2026-07-12 | 0 | 15 | 17 | 0 | 0 | 220 |
-| 90d | 2026-06-12 | 0 | 18 | 19 | 0 | 0 | 405 |
-| last180d | 2026-03-14 | 0 | 57 | 24 | 0 | 0 | 895 |
-| 360d | 2025-09-15 | 0 | 91 | 31 | 0 | 0 | 1386 |
-| last720d | 2024-09-20 | 0 | 131 | 33 | 0 | 0 | 2476 |
+| 30d | 2026-08-11 | 0 | 10 | 15 | 0 | 0 | 125 |
+| last60d | 2026-07-12 | 0 | 15 | 17 | 0 | 0 | 221 |
+| 90d | 2026-06-12 | 0 | 18 | 19 | 0 | 0 | 406 |
+| last180d | 2026-03-14 | 0 | 57 | 24 | 0 | 0 | 896 |
+| 360d | 2025-09-15 | 0 | 91 | 31 | 0 | 0 | 1387 |
+| last720d | 2024-09-20 | 0 | 131 | 33 | 0 | 0 | 2477 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for tomcat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:35:13Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T22:16:27Z._
