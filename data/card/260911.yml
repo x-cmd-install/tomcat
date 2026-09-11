@@ -2,28 +2,28 @@ about:
   description: "Apache Tomcat"
   license: Apache-2.0
   homepage: https://tomcat.apache.org
-  head: 8569d52
+  head: 462be98
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:06:37Z
+  collectedAt: 2026-09-11T19:54:57Z
 timeline:
   created: 2011-10-01
-  lastCommit: 2026-09-10
+  lastCommit: 2026-09-11
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 8246
+  star: 8248
   watcher: 473
-  fork: 5394
+  fork: 5393
   release: 0
   contributor: 162
   pullRequest: 1060
   issue: 0
 language:
-  Java: 25025950
+  Java: 25029826
   HTML: 306679
   Shell: 59562
   Batchfile: 46163
@@ -33,7 +33,7 @@ language:
   Perl: 17780
   Dockerfile: 2661
   C: 1170
-totalBytes: 25555265
+totalBytes: 25559141
 recent:
   last30d:
     since: 2026-08-12
@@ -42,7 +42,7 @@ recent:
     openPR: 15
     closedIssue: 0
     openIssue: 0
-    commit: 125
+    commit: 128
   last60d:
     since: 2026-07-13
     release: 0
@@ -50,7 +50,7 @@ recent:
     openPR: 17
     closedIssue: 0
     openIssue: 0
-    commit: 221
+    commit: 224
   last90d:
     since: 2026-06-13
     release: 0
@@ -58,7 +58,7 @@ recent:
     openPR: 19
     closedIssue: 0
     openIssue: 0
-    commit: 406
+    commit: 409
   last180d:
     since: 2026-03-15
     release: 0
@@ -66,7 +66,7 @@ recent:
     openPR: 24
     closedIssue: 0
     openIssue: 0
-    commit: 896
+    commit: 899
   last360d:
     since: 2025-09-16
     release: 0
@@ -74,7 +74,7 @@ recent:
     openPR: 31
     closedIssue: 0
     openIssue: 0
-    commit: 1387
+    commit: 1390
   last720d:
     since: 2024-09-21
     release: 0
@@ -82,22 +82,22 @@ recent:
     openPR: 33
     closedIssue: 0
     openIssue: 0
-    commit: 2474
+    commit: 2477
 total:
   release: 0
   mergedPR: 321
   openPR: 42
   closedIssue: 0
   openIssue: 0
-  commit: 29056
+  commit: 29059
 ---
 path: /home/runner/.x-repo/github.com/apache/tomcat
-collectedAt: 2026-09-11T05:07:43Z
+collectedAt: 2026-09-11T19:55:43Z
 loc:
   Java:
-    code: 383374
-    comments: 211215
-    blanks: 96095
+    code: 383371
+    comments: 211315
+    blanks: 96099
     files: 2822
   Xml:
     code: 54017
@@ -175,9 +175,9 @@ loc:
     blanks: 789
     files: 43
 total:
-  code: 448877
-  comments: 222537
-  blanks: 104212
+  code: 448874
+  comments: 222637
+  blanks: 104216
   files: 3255
 ---
 date: "2026-09-07"
