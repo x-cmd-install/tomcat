@@ -303,3 +303,4 @@ checks:
     reason: project is fuzzed
     details:
       - 'Info: OSSFuzz integration found'
+---
