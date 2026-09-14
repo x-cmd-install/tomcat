@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,248 · **Forks**: 5,393 · **Open issues**: 0 · **Contributors**: 162
+- **Stars**: 8,250 · **Forks**: 5,393 · **Open issues**: 0 · **Contributors**: 162
 
 ## Totals (cumulative)
 
@@ -52,31 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 5 | 15 | 0 | 0 | 104 |
-| last60d | 2026-07-15 | 0 | 15 | 17 | 0 | 0 | 205 |
-| 90d | 2026-06-15 | 0 | 17 | 19 | 0 | 0 | 342 |
-| last180d | 2026-03-17 | 0 | 56 | 24 | 0 | 0 | 879 |
-| 360d | 2025-09-18 | 0 | 91 | 31 | 0 | 0 | 1367 |
-| last720d | 2024-09-23 | 0 | 131 | 33 | 0 | 0 | 2476 |
-
-## Distribution status
-
-Reported by **614** distros on [repology.org](https://repology.org/project/tomcat). **13** are ✅ on the latest upstream release, **262** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `10.1.55` | ⚠️ outdated |
-| Debian 14 | `10.1.55` | ⚠️ outdated |
-| Debian 13 | `10.1.55` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `10.1.40` | 🪦 legacy |
-| Ubuntu 24.04 LTS | `10.1.16` | 🪦 legacy |
-| Arch | `10.1.59` | ⚠️ outdated |
-| Homebrew | `11.0.25` | ✅ latest |
-| Fedora rawhide | `10.1.59` | ⚠️ outdated |
-| Nix unstable | `11.0.24` | ⚠️ outdated |
-| Void | `9.0.106` | ⚠️ outdated |
-| Alpine edge | `9.0.121` | ⚠️ outdated |
-| openSUSE Tumbleweed | `9.0.120` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 4 | 15 | 0 | 0 | 104 |
+| last60d | 2026-07-16 | 0 | 15 | 17 | 0 | 0 | 205 |
+| 90d | 2026-06-16 | 0 | 17 | 19 | 0 | 0 | 342 |
+| last180d | 2026-03-18 | 0 | 55 | 24 | 0 | 0 | 879 |
+| 360d | 2025-09-19 | 0 | 90 | 31 | 0 | 0 | 1367 |
+| last720d | 2024-09-24 | 0 | 130 | 33 | 0 | 0 | 2473 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for tomcat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:19:03Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:44:39Z._
