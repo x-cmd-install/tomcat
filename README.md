@@ -4,7 +4,7 @@
 
 Apache Tomcat
 
-![tomcat](https://repo.x-cmd.io/tomcat.svg)
+[![x-cmd/install — tomcat Code Quality Monitoring Repo Card](https://repo.x-cmd.io/tomcat.svg)](https://x-cmd.com/install/tomcat)
 
 ## Install
 
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 322 · **Open PRs**: 42 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29079
+- **Releases**: 0 · **Merged PRs**: 322 · **Open PRs**: 46 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29080
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 3 | 12 | 0 | 0 | 124 |
-| last60d | 2026-07-20 | 0 | 16 | 17 | 0 | 0 | 225 |
-| 90d | 2026-06-20 | 0 | 18 | 18 | 0 | 0 | 362 |
-| last180d | 2026-03-22 | 0 | 52 | 24 | 0 | 0 | 899 |
-| 360d | 2025-09-23 | 0 | 89 | 31 | 0 | 0 | 1387 |
-| last720d | 2024-09-28 | 0 | 131 | 33 | 0 | 0 | 2463 |
+| 30d | 2026-08-21 | 0 | 3 | 16 | 0 | 0 | 101 |
+| last60d | 2026-07-22 | 0 | 16 | 21 | 0 | 0 | 212 |
+| 90d | 2026-06-22 | 0 | 17 | 22 | 0 | 0 | 309 |
+| last180d | 2026-03-24 | 0 | 51 | 28 | 0 | 0 | 878 |
+| 360d | 2025-09-25 | 0 | 87 | 35 | 0 | 0 | 1357 |
+| last720d | 2024-09-30 | 0 | 131 | 37 | 0 | 0 | 2464 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for tomcat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:16:54Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:26:09Z._
