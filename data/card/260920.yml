@@ -303,3 +303,4 @@ checks:
       - 'Info:   0 out of  13 GitHub-owned GitHubAction dependencies pinned'
       - 'Info:   1 out of   1 third-party GitHubAction dependencies pinned'
       - 'Info:   0 out of   2 containerImage dependencies pinned'
+---
