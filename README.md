@@ -14,12 +14,12 @@ x install tomcat
 
 ## Code insight
 
-Total: **452,713** lines of code across **3178** files in the top 5 languages.
+Total: **452,737** lines of code across **3178** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 387,063 | 212,403 | 96,647 | 2840 |
-| Xml | 54,151 | 5,453 | 5,507 | 221 |
+| Java | 387,083 | 212,409 | 96,657 | 2840 |
+| Xml | 54,155 | 5,453 | 5,507 | 221 |
 | Html | 3,768 | 1,539 | 461 | 98 |
 | Svg | 2,956 | 115 | 66 | 7 |
 | Batch | 1,116 | 0 | 157 | 12 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,254 · **Forks**: 5,401 · **Open issues**: 0 · **Contributors**: 163
+- **Stars**: 8,253 · **Forks**: 5,403 · **Open issues**: 0 · **Contributors**: 163
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 322 · **Open PRs**: 46 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29119
+- **Releases**: 0 · **Merged PRs**: 322 · **Open PRs**: 45 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29120
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 0 | 1 | 14 | 0 | 0 | 90 |
-| last60d | 2026-07-29 | 0 | 16 | 20 | 0 | 0 | 236 |
-| 90d | 2026-06-29 | 0 | 17 | 21 | 0 | 0 | 310 |
-| last180d | 2026-03-31 | 0 | 46 | 28 | 0 | 0 | 897 |
-| 360d | 2025-10-02 | 0 | 86 | 35 | 0 | 0 | 1294 |
-| last720d | 2024-10-07 | 0 | 131 | 36 | 0 | 0 | 2456 |
+| 30d | 2026-08-29 | 0 | 1 | 13 | 0 | 0 | 91 |
+| last60d | 2026-07-30 | 0 | 15 | 19 | 0 | 0 | 237 |
+| 90d | 2026-06-30 | 0 | 17 | 20 | 0 | 0 | 311 |
+| last180d | 2026-04-01 | 0 | 43 | 27 | 0 | 0 | 898 |
+| 360d | 2025-10-03 | 0 | 86 | 34 | 0 | 0 | 1295 |
+| last720d | 2024-10-08 | 0 | 131 | 35 | 0 | 0 | 2450 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for tomcat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T05:39:54Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T05:46:23Z._
