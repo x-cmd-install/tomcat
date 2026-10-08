@@ -309,3 +309,4 @@ checks:
     details:
       - 'Info: SAST configuration detected: CodeQL'
       - 'Warn: 0 commits out of 2 are checked with a SAST tool'
+---
