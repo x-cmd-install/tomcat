@@ -42,35 +42,35 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,261 · **Forks**: 5,413 · **Open issues**: 0 · **Contributors**: 169
+- **Stars**: 8,262 · **Forks**: 5,410 · **Open issues**: 0 · **Contributors**: 169
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 341 · **Open PRs**: 39 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29865
+- **Releases**: 0 · **Merged PRs**: 341 · **Open PRs**: 52 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29865
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 0 | 15 | 8 | 0 | 0 | 657 |
-| last60d | 2026-08-25 | 0 | 19 | 13 | 0 | 0 | 836 |
-| 90d | 2026-07-26 | 0 | 35 | 14 | 0 | 0 | 947 |
-| last180d | 2026-04-27 | 0 | 50 | 16 | 0 | 0 | 1507 |
-| 360d | 2025-10-29 | 0 | 99 | 28 | 0 | 0 | 1932 |
-| last720d | 2024-11-03 | 0 | 148 | 29 | 0 | 0 | 3115 |
+| 30d | 2026-09-25 | 0 | 15 | 21 | 0 | 0 | 540 |
+| last60d | 2026-08-26 | 0 | 19 | 26 | 0 | 0 | 802 |
+| 90d | 2026-07-27 | 0 | 35 | 27 | 0 | 0 | 927 |
+| last180d | 2026-04-28 | 0 | 49 | 29 | 0 | 0 | 1477 |
+| 360d | 2025-10-30 | 0 | 99 | 41 | 0 | 0 | 1910 |
+| last720d | 2024-11-04 | 0 | 146 | 42 | 0 | 0 | 3115 |
 
 ## Distribution status
 
-Reported by **623** distros on [repology.org](https://repology.org/project/tomcat). **16** are ✅ on the latest upstream release, **240** are ⚠️ on an older version.
+Reported by **624** distros on [repology.org](https://repology.org/project/tomcat). **16** are ✅ on the latest upstream release, **241** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `11.0.24` | ⚠️ outdated |
-| Debian 14 | `11.0.24` | ⚠️ outdated |
+| Debian unstable | `10.1.60` | ⚠️ outdated |
+| Debian 14 | `10.1.60` | ⚠️ outdated |
 | Debian 13 | `10.1.55` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `10.1.40` | 🪦 legacy |
+| Ubuntu 26.04 LTS | `10.1.55` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `10.1.16` | 🪦 legacy |
-| Arch | `9.0.123` | 🪦 legacy |
+| Arch | `10.1.61` | ⚠️ outdated |
 | Homebrew | `9.0.123` | 🪦 legacy |
 | Fedora rawhide | `10.1.60` | ⚠️ outdated |
 | Nix unstable | `11.0.24` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for tomcat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T04:54:02Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T04:58:02Z._
