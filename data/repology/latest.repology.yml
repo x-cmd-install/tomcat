@@ -1,12 +1,99 @@
-- repo: scoop
-  subrepo: versions
-  binname: tomcat11
-  visiblename: tomcat11
-  version: 11.0.27
-  origversion: null
-  status: newest
+- repo: pld
+  srcname: tomcat9
+  visiblename: tomcat9
+  version: 9.0.115
+  origversion: 9.0.115-10
+  status: outdated
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.2
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
   licenses:
-    - Apache-2.0
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.75
+  origversion: 8.5.75-1.90.amzn1
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: tomcat
+  visiblename: tomcat
+  version: 9.0.62
+  origversion: 1:9.0.62-27.el8_9
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.63
+  origversion: 8.5.63-1.87.amzn1
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.69
+  origversion: 8.5.69-1.88.amzn1
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.72
+  origversion: 8.5.72-1.89.amzn1
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.19
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
 - repo: alpine_edge
   subrepo: testing
   srcname: tomcat9
@@ -73,27 +160,6 @@
   licenses:
     - Apache-2.0
 - repo: alt_p11
-  srcname: tomcat10
-  binnames:
-    - tomcat10
-    - tomcat10-admin-webapps
-    - tomcat10-el-5.0-api
-    - tomcat10-jsp-3.1-api
-    - tomcat10-lib
-    - tomcat10-servlet-6.0-api
-    - tomcat10-webapps
-  visiblename: tomcat10
-  version: 10.1.61
-  origversion: 1:10.1.61-alt0.p11.1
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 6.0/JSP 3.1 API
-  maintainers:
-    - slev@altlinux.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Servers
-- repo: alt_p11
   srcname: tomcat
   binnames:
     - tomcat
@@ -111,6 +177,27 @@
   summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
   maintainers:
     - serjigva@altlinux.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - System/Servers
+- repo: alt_p11
+  srcname: tomcat10
+  binnames:
+    - tomcat10
+    - tomcat10-admin-webapps
+    - tomcat10-el-5.0-api
+    - tomcat10-jsp-3.1-api
+    - tomcat10-lib
+    - tomcat10-servlet-6.0-api
+    - tomcat10-webapps
+  visiblename: tomcat10
+  version: 10.1.61
+  origversion: 1:10.1.61-alt0.p11.1
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 6.0/JSP 3.1 API
+  maintainers:
+    - slev@altlinux.org
   licenses:
     - Apache-2.0
   categories:
@@ -158,24 +245,6 @@
     - Apache-2.0
   categories:
     - System/Servers
-- repo: chocolatey
-  binname: tomcat11
-  visiblename: Apache Tomcat 11
-  version: 11.0.27
-  origversion: null
-  status: newest
-  summary: Application Server. Windows 64 bit only. Jakarta EE 11 implementation.
-- repo: arch
-  subrepo: extra
-  srcname: tomcat10
-  binname: tomcat10
-  visiblename: tomcat10
-  version: 10.1.61
-  origversion: 10.1.61-1
-  status: outdated
-  summary: Open source implementation of the Java Servlet 5.0 and JavaServer Pages 3.0 technologies
-  licenses:
-    - Apache-2.0
 - repo: arch
   subrepo: extra
   srcname: tomcat9
@@ -187,13 +256,17 @@
   summary: Open source implementation of the Java Servlet 4.0 and JavaServer Pages 2.3 technologies
   licenses:
     - Apache-2.0
-- repo: homebrew
-  srcname: tomcat
-  visiblename: tomcat
-  version: 11.0.27
-  origversion: null
-  status: newest
-  summary: Implementation of Java Servlet and JavaServer Pages
+- repo: arch
+  subrepo: extra
+  srcname: tomcat10
+  binname: tomcat10
+  visiblename: tomcat10
+  version: 10.1.61
+  origversion: 10.1.61-1
+  status: outdated
+  summary: Open source implementation of the Java Servlet 5.0 and JavaServer Pages 3.0 technologies
+  licenses:
+    - Apache-2.0
 - repo: centos_stream_9
   subrepo: AppStream
   srcname: tomcat
@@ -231,6 +304,13 @@
   origversion: null
   status: legacy
   summary: Application Server. Windows 32 and 64 bit. Jakarta EE 9 implementation.
+- repo: chocolatey
+  binname: tomcat11
+  visiblename: Apache Tomcat 11
+  version: 11.0.27
+  origversion: null
+  status: newest
+  summary: Application Server. Windows 64 bit only. Jakarta EE 11 implementation.
 - repo: debian_14
   subrepo: forky/main
   srcname: tomcat10
@@ -280,13 +360,6 @@
     - tmancill@debian.org
   categories:
     - misc
-- repo: homebrew
-  srcname: tomcat@10
-  visiblename: tomcat@10
-  version: 10.1.61
-  origversion: null
-  status: legacy
-  summary: Implementation of Java Servlet and JavaServer Pages
 - repo: debian_unstable
   subrepo: sid/main
   srcname: tomcat9
@@ -346,30 +419,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - www-servers
-- repo: homebrew
-  srcname: tomcat@9
-  visiblename: tomcat@9
-  version: 9.0.123
-  origversion: null
-  status: legacy
-  summary: Implementation of Java Servlet and JavaServer Pages
-- repo: kali_rolling
-  subrepo: main
-  srcname: tomcat10
-  binnames:
-    - libtomcat10-java
-    - libtomcat10-embed-java
-  visiblename: tomcat10
-  version: 10.1.60
-  origversion: 10.1.60-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - apo@debian.org
-    - ebourg@apache.org
-    - tmancill@debian.org
-  categories:
-    - misc
 - repo: fedora_43
   subrepo: updates
   srcname: tomcat
@@ -549,6 +598,44 @@
     - Apache-2.0
   categories:
     - www-servers
+- repo: homebrew
+  srcname: tomcat
+  visiblename: tomcat
+  version: 11.0.27
+  origversion: null
+  status: newest
+  summary: Implementation of Java Servlet and JavaServer Pages
+- repo: homebrew
+  srcname: tomcat@10
+  visiblename: tomcat@10
+  version: 10.1.61
+  origversion: null
+  status: legacy
+  summary: Implementation of Java Servlet and JavaServer Pages
+- repo: homebrew
+  srcname: tomcat@9
+  visiblename: tomcat@9
+  version: 9.0.123
+  origversion: null
+  status: legacy
+  summary: Implementation of Java Servlet and JavaServer Pages
+- repo: kali_rolling
+  subrepo: main
+  srcname: tomcat10
+  binnames:
+    - libtomcat10-java
+    - libtomcat10-embed-java
+  visiblename: tomcat10
+  version: 10.1.60
+  origversion: 10.1.60-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - apo@debian.org
+    - ebourg@apache.org
+    - tmancill@debian.org
+  categories:
+    - misc
 - repo: kali_rolling
   subrepo: main
   srcname: tomcat9
@@ -794,30 +881,17 @@
   summary: Open source implementation of the Java Servlet 4.0 and JavaServer Pages 2.3 technologies
   licenses:
     - Apache-2.0
-- repo: openbsd
-  srcname: www/tomcat/v9
-  binname: tomcat
-  visiblename: www/tomcat/v9
+- repo: parabola
+  subrepo: extra
+  srcname: tomcat9
+  binname: tomcat9
+  visiblename: tomcat9
   version: 9.0.123
-  origversion: null
+  origversion: 9.0.123-1
   status: legacy
-  summary: Apache's Java EE 8 server for Java web applications
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - www
-- repo: openbsd
-  srcname: www/tomcat/v9
-  binname: tomcat
-  visiblename: www/tomcat/v9
-  version: 9.0.123
-  origversion: null
-  status: legacy
-  summary: Apache's Java EE 8 server for Java web applications
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - www
+  summary: Open source implementation of the Java Servlet 4.0 and JavaServer Pages 2.3 technologies
+  licenses:
+    - Apache-2.0
 - repo: openbsd
   srcname: www/tomcat/v9
   binname: tomcat-examples
@@ -830,6 +904,41 @@
     - ports@openbsd.org
   categories:
     - www
+- repo: openbsd
+  srcname: www/tomcat/v9
+  binname: tomcat
+  visiblename: www/tomcat/v9
+  version: 9.0.123
+  origversion: null
+  status: legacy
+  summary: Apache's Java EE 8 server for Java web applications
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - www
+- repo: openbsd
+  srcname: www/tomcat/v9
+  binname: tomcat
+  visiblename: www/tomcat/v9
+  version: 9.0.123
+  origversion: null
+  status: legacy
+  summary: Apache's Java EE 8 server for Java web applications
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - www
+- repo: parabola
+  subrepo: extra
+  srcname: tomcat10
+  binname: tomcat10
+  visiblename: tomcat10
+  version: 10.1.61
+  origversion: 10.1.61-1
+  status: outdated
+  summary: Open source implementation of the Java Servlet 5.0 and JavaServer Pages 3.0 technologies
+  licenses:
+    - Apache-2.0
 - repo: openbsd
   srcname: www/tomcat/v10
   binname: tomcat
@@ -1033,9 +1142,9 @@
     - tomcat-servlet-4_0-api
     - tomcat-webapps
   visiblename: tomcat
-  version: 9.0.122
-  origversion: 9.0.122-2.1
-  status: outdated
+  version: 9.0.123
+  origversion: 9.0.123-1.1
+  status: legacy
   summary: Apache Servlet/JSP/EL Engine, RI for Servlet 4.0/JSP 2.3/EL 3.0 API
   licenses:
     - Apache-2.0
@@ -1057,9 +1166,9 @@
     - tomcat10-servlet-6_0-api
     - tomcat10-webapps
   visiblename: tomcat10
-  version: 10.1.60
-  origversion: 10.1.60-2.1
-  status: outdated
+  version: 10.1.61
+  origversion: 10.1.61-1.1
+  status: legacy
   summary: Apache Servlet/JSP/EL Engine, RI for Servlet 6.0/JSP 3.1/EL 5.0 API
   licenses:
     - Apache-2.0
@@ -1081,36 +1190,14 @@
     - tomcat11-servlet-6_1-api
     - tomcat11-webapps
   visiblename: tomcat11
-  version: 11.0.26
-  origversion: 11.0.26-2.1
-  status: outdated
+  version: 11.0.27
+  origversion: 11.0.27-1.1
+  status: newest
   summary: Apache Servlet/JSP/EL Engine, RI for Servlet 6.1/JSP 4.0/EL 6.0 API
   licenses:
     - Apache-2.0
   categories:
     - Productivity/Networking/Web/Servers
-- repo: parabola
-  subrepo: extra
-  srcname: tomcat9
-  binname: tomcat9
-  visiblename: tomcat9
-  version: 9.0.123
-  origversion: 9.0.123-1
-  status: legacy
-  summary: Open source implementation of the Java Servlet 4.0 and JavaServer Pages 2.3 technologies
-  licenses:
-    - Apache-2.0
-- repo: parabola
-  subrepo: extra
-  srcname: tomcat10
-  binname: tomcat10
-  visiblename: tomcat10
-  version: 10.1.61
-  origversion: 10.1.61-1
-  status: outdated
-  summary: Open source implementation of the Java Servlet 5.0 and JavaServer Pages 3.0 technologies
-  licenses:
-    - Apache-2.0
 - repo: raspbian_testing
   subrepo: main
   srcname: tomcat10
@@ -1170,6 +1257,15 @@
   status: legacy
   licenses:
     - Apache-2.0
+- repo: scoop
+  subrepo: versions
+  binname: tomcat11
+  visiblename: tomcat11
+  version: 11.0.27
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
 - repo: t2
   srcname: tomcat
   visiblename: tomcat
@@ -1202,92 +1298,38 @@
   summary: an implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies
   licenses:
     - Apache Software License 2.0
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.56
-  origversion: 8.5.56-1.84.amzn1
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.3
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
   licenses:
     - ASL 2.0
   categories:
     - System Environment/Daemons
   vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.57
-  origversion: 8.5.57-1.85.amzn1
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: tomcat
+  visiblename: tomcat
+  version: 9.0.62
+  origversion: 1:9.0.62-30.el8
   status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
   licenses:
     - ASL 2.0
   categories:
-    - System Environment/Daemons
+    - Unspecified
   vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.60
-  origversion: 8.5.60-1.86.amzn1
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.63
-  origversion: 8.5.63-1.87.amzn1
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.69
-  origversion: 8.5.69-1.88.amzn1
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.72
-  origversion: 8.5.72-1.89.amzn1
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.75
-  origversion: 8.5.75-1.90.amzn1
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.4
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
   licenses:
     - ASL 2.0
   categories:
@@ -1306,6 +1348,30 @@
   categories:
     - System Environment/Daemons
   vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.5
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.6
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
 - repo: amazon_1
   subrepo: updates
   srcname: tomcat8
@@ -1314,6 +1380,18 @@
   origversion: 8.5.87-1.92.amzn1
   status: legacy
   summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.7
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
   licenses:
     - ASL 2.0
   categories:
@@ -1345,12 +1423,63 @@
   categories:
     - System Environment/Daemons
   vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.96
+  origversion: 8.5.96-1.96.amzn1
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.94
+  origversion: 8.5.94-1.95.amzn1
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.99
+  origversion: 8.5.99-1.97.amzn1
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.8
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
   srcname: tomcat
   visiblename: tomcat
   version: 9.0.87
-  origversion: 1:9.0.87-1.el8_10.1.alma.1
+  origversion: 1:9.0.87-1.el8_10.4
   status: legacy
   summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
   maintainers:
@@ -1360,33 +1489,134 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: tomcat8
+- repo: amazon_1
+  subrepo: updates
+  srcname: tomcat8
   visiblename: tomcat8
-  version: 8.5.100
-  origversion: null
-  status: legacy
+  version: 8.5.99
+  origversion: 8.5.99-1.98.amzn1
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
   licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: tomcat6
-  visiblename: tomcat6
-  version: 6.0.53
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache-2.0
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
   vulnerable: true
 - repo: amazon_1
-  subrepo: main
-  srcname: tomcat7
-  visiblename: tomcat7
-  version: 7.0.85
-  origversion: 7.0.85-1.32.amzn1
+  subrepo: updates
+  srcname: tomcat80
+  visiblename: tomcat80
+  version: 8.0.53
+  origversion: 8.0.53-1.80.amzn1
   status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.1
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.10
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.11
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.12
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.13
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.14
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.15
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.16
+  status: outdated
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: amazon_2
+  srcname: tomcat
+  visiblename: tomcat
+  version: 7.0.76
+  origversion: 7.0.76-10.amzn2.0.17
+  status: outdated
   summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
   licenses:
     - ASL 2.0
@@ -1395,12 +1625,40 @@
   vulnerable: true
 - repo: amazon_1
   subrepo: updates
-  srcname: tomcat7
-  visiblename: tomcat7
-  version: 7.0.100
-  origversion: 7.0.100-1.36.amzn1
+  srcname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.60
+  origversion: 8.5.60-1.86.amzn1
   status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: tomcat
+  visiblename: tomcat
+  version: 9.0.87
+  origversion: 1:9.0.87-1.el8_10.6
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: main
+  srcname: tomcat80
+  visiblename: tomcat80
+  version: 8.0.50
+  origversion: 8.0.50-1.79.amzn1
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
   licenses:
     - ASL 2.0
   categories:
@@ -1436,28 +1694,20 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.51
-  origversion: 8.5.51-1.83.amzn1
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: tomcat
+  visiblename: tomcat
+  version: 9.0.87
+  origversion: 1:9.0.87-1.el8_10.1.alma.1
   status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
+  maintainers:
+    - packager@almalinux.org
   licenses:
     - ASL 2.0
   categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: tomcat7
-  visiblename: tomcat7
-  version: 7.0.109
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache-2.0
+    - Unspecified
   vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
@@ -1489,35 +1739,31 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: tomcat
-  visiblename: tomcat
-  version: 9.0.87
-  origversion: 1:9.0.87-1.el8_10.4
+- repo: amazon_1
+  subrepo: main
+  srcname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.29
+  origversion: 8.5.29-1.77.amzn1
   status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
-  maintainers:
-    - packager@almalinux.org
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
   licenses:
     - ASL 2.0
   categories:
-    - Unspecified
+    - System Environment/Daemons
   vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: tomcat
-  visiblename: tomcat
-  version: 9.0.87
-  origversion: 1:9.0.87-1.el8_10.6
+- repo: amazon_1
+  subrepo: updates
+  srcname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.57
+  origversion: 8.5.57-1.85.amzn1
   status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
-  maintainers:
-    - packager@almalinux.org
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
   licenses:
     - ASL 2.0
   categories:
-    - Unspecified
+    - System Environment/Daemons
   vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
@@ -1647,25 +1893,25 @@
   vulnerable: true
 - repo: amazon_1
   subrepo: main
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.29
-  origversion: 8.5.29-1.77.amzn1
+  srcname: tomcat7
+  visiblename: tomcat7
+  version: 7.0.85
+  origversion: 7.0.85-1.32.amzn1
   status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
   licenses:
     - ASL 2.0
   categories:
     - System Environment/Daemons
   vulnerable: true
 - repo: amazon_1
-  subrepo: main
-  srcname: tomcat80
-  visiblename: tomcat80
-  version: 8.0.50
-  origversion: 8.0.50-1.79.amzn1
+  subrepo: updates
+  srcname: tomcat7
+  visiblename: tomcat7
+  version: 7.0.100
+  origversion: 7.0.100-1.36.amzn1
   status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
+  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
   licenses:
     - ASL 2.0
   categories:
@@ -1831,8 +2077,8 @@
   subrepo: updates
   srcname: tomcat8
   visiblename: tomcat8
-  version: 8.5.94
-  origversion: 8.5.94-1.95.amzn1
+  version: 8.5.51
+  origversion: 8.5.51-1.83.amzn1
   status: legacy
   summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
   licenses:
@@ -1844,253 +2090,10 @@
   subrepo: updates
   srcname: tomcat8
   visiblename: tomcat8
-  version: 8.5.96
-  origversion: 8.5.96-1.96.amzn1
+  version: 8.5.56
+  origversion: 8.5.56-1.84.amzn1
   status: legacy
   summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.99
-  origversion: 8.5.99-1.97.amzn1
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat8
-  visiblename: tomcat8
-  version: 8.5.99
-  origversion: 8.5.99-1.98.amzn1
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: tomcat80
-  visiblename: tomcat80
-  version: 8.0.53
-  origversion: 8.0.53-1.80.amzn1
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.1/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.1
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.10
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.11
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.12
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.13
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.14
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.15
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.16
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.17
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.19
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.2
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.3
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.4
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.5
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.6
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.7
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: amazon_2
-  srcname: tomcat
-  visiblename: tomcat
-  version: 7.0.76
-  origversion: 7.0.76-10.amzn2.0.8
-  status: outdated
-  summary: Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
   licenses:
     - ASL 2.0
   categories:
@@ -2234,6 +2237,19 @@
     - apo@debian.org
     - ebourg@apache.org
     - tmancill@debian.org
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: tomcat
+  visiblename: tomcat
+  version: 9.0.62
+  origversion: 1:9.0.62-27.el8_9.2
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: apertis_v2025
   subrepo: v2025/development
@@ -2697,18 +2713,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.tomcat.Tomcat
-  binname: org.apache.tomcat.Tomcat
-  visiblename: Tomcat
-  version: 7.0.42
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: tomcat9
@@ -2754,6 +2758,28 @@
     - builder@centos.org
   licenses:
     - Apache-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: tomcat
+  binnames:
+    - tomcat
+    - tomcat-admin-webapps
+    - tomcat-docs-webapp
+    - tomcat-jsp-2.3-api
+    - tomcat-lib
+    - tomcat-servlet-4.0-api
+    - tomcat-el-3.0-api
+    - tomcat-webapps
+  visiblename: tomcat
+  version: 9.0.62
+  origversion: 1:9.0.62-37.el9_3.2
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
+  licenses:
+    - ASL 2.0
   categories:
     - Unspecified
   vulnerable: true
@@ -2891,6 +2917,19 @@
   categories:
     - misc
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: tomcat
+  visiblename: tomcat
+  version: 9.0.62
+  origversion: 1:9.0.62-27.el8_9.3
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: debian_13
   subrepo: trixie/main
   srcname: tomcat10
@@ -2938,6 +2977,18 @@
     - tmancill@debian.org
   categories:
     - misc
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.tomcat.Tomcat
+  binname: org.apache.tomcat.Tomcat
+  visiblename: Tomcat
+  version: 7.0.68
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
   vulnerable: true
 - repo: debian_13
   subrepo: trixie/main
@@ -3027,28 +3078,6 @@
   categories:
     - misc
   vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: tomcat
-  binnames:
-    - tomcat
-    - tomcat-admin-webapps
-    - tomcat-docs-webapp
-    - tomcat-jsp-2.3-api
-    - tomcat-lib
-    - tomcat-servlet-4.0-api
-    - tomcat-el-3.0-api
-    - tomcat-webapps
-  visiblename: tomcat
-  version: 9.0.62
-  origversion: 1:9.0.62-37.el9_3.2
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: debian_unstable
   subrepo: sid/main
   srcname: tomcat11
@@ -3118,29 +3147,6 @@
     - misc
   vulnerable: true
 - repo: deepin_25
-  subrepo: main
-  srcname: tomcat9
-  binnames:
-    - tomcat9-common
-    - tomcat9
-    - tomcat9-user
-    - libtomcat9-java
-    - libtomcat9-embed-java
-    - tomcat9-admin
-    - tomcat9-examples
-    - tomcat9-docs
-  visiblename: tomcat9
-  version: 9.0.55
-  origversion: 9.0.55-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - tmancill@debian.org
-  categories:
-    - java
-  vulnerable: true
-- repo: deepin_25
   subrepo: community
   srcname: tomcat10
   binnames:
@@ -3183,6 +3189,29 @@
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
     - apo@debian.org
+    - ebourg@apache.org
+    - tmancill@debian.org
+  categories:
+    - java
+  vulnerable: true
+- repo: deepin_25
+  subrepo: main
+  srcname: tomcat9
+  binnames:
+    - tomcat9-common
+    - tomcat9
+    - tomcat9-user
+    - libtomcat9-java
+    - libtomcat9-embed-java
+    - tomcat9-admin
+    - tomcat9-examples
+    - tomcat9-docs
+  visiblename: tomcat9
+  version: 9.0.55
+  origversion: 9.0.55-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
     - ebourg@apache.org
     - tmancill@debian.org
   categories:
@@ -3244,58 +3273,6 @@
     - ASL 2.0
   categories:
     - System Environment/Daemons
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: tomcat
-  visiblename: tomcat
-  version: 9.0.62
-  origversion: 1:9.0.62-27.el8_9.2
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: tomcat
-  visiblename: tomcat
-  version: 9.0.62
-  origversion: 1:9.0.62-27.el8_9.3
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: tomcat
-  visiblename: tomcat
-  version: 9.0.62
-  origversion: 1:9.0.62-27.el8_9
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: tomcat
-  visiblename: tomcat
-  version: 9.0.62
-  origversion: 1:9.0.62-30.el8
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: eurolinux_8
   subrepo: appstream
@@ -3862,6 +3839,18 @@
   categories:
     - www-servers
   vulnerable: true
+- repo: nix_stable_26_05
+  srcname: tomcat
+  visiblename: apache-tomcat
+  version: 11.0.24
+  origversion: null
+  status: outdated
+  summary: Implementation of the Java Servlet and JavaServer Pages technologies
+  maintainers:
+    - anthony@roussel.dev
+  licenses:
+    - Apache-2.0
+  vulnerable: true
 - repo: liguros_develop
   srcname: dev-java/tomcat-servlet-api
   visiblename: dev-java/tomcat-servlet-api
@@ -3942,17 +3931,29 @@
   categories:
     - Development/Java
   vulnerable: true
-- repo: nix_stable_26_05
-  srcname: tomcat11
-  visiblename: apache-tomcat
-  version: 11.0.24
+- repo: npackd_stable
+  srcname: org.apache.tomcat.Tomcat
+  binname: org.apache.tomcat.Tomcat
+  visiblename: Tomcat
+  version: 7.0.16
   origversion: null
-  status: outdated
-  summary: Implementation of the Java Servlet and JavaServer Pages technologies
-  maintainers:
-    - anthony@roussel.dev
+  status: legacy
   licenses:
-    - Apache-2.0
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.tomcat.Tomcat
+  binname: org.apache.tomcat.Tomcat
+  visiblename: Tomcat
+  version: 7.0.20
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
   vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
@@ -4020,18 +4021,6 @@
   categories:
     - Development/Java
   vulnerable: true
-- repo: nix_stable_24_05
-  srcname: tomcat10
-  visiblename: apache-tomcat
-  version: 10.1.23
-  origversion: null
-  status: outdated
-  summary: An implementation of the Java Servlet and JavaServer Pages technologies
-  maintainers:
-    - anthony@roussel.dev
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
   srcname: tomcat
@@ -4075,18 +4064,6 @@
     - ASL 2.0
   categories:
     - Development/Java
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.tomcat.Tomcat
-  binname: org.apache.tomcat.Tomcat
-  visiblename: Tomcat
-  version: 7.0.39
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
   vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
@@ -4154,6 +4131,18 @@
   categories:
     - Development/Java
   vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.tomcat.Tomcat
+  binname: org.apache.tomcat.Tomcat
+  visiblename: Tomcat
+  version: 7.0.19
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
   srcname: tomcat
@@ -4220,18 +4209,6 @@
   categories:
     - Development/Java
   vulnerable: true
-- repo: nix_stable_24_05
-  srcname: tomcat9
-  visiblename: apache-tomcat
-  version: 9.0.88
-  origversion: null
-  status: outdated
-  summary: An implementation of the Java Servlet and JavaServer Pages technologies
-  maintainers:
-    - anthony@roussel.dev
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
   srcname: tomcat
@@ -4276,18 +4253,6 @@
   categories:
     - Development/Java
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.tomcat.Tomcat
-  binname: org.apache.tomcat.Tomcat
-  visiblename: Tomcat
-  version: 7.0.47
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
 - repo: mageia_10
   subrepo: core/release
   srcname: tomcat
@@ -4331,6 +4296,30 @@
     - Apache-2.0
   categories:
     - Development/Java
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: tomcat10
+  visiblename: apache-tomcat
+  version: 10.1.23
+  origversion: null
+  status: outdated
+  summary: An implementation of the Java Servlet and JavaServer Pages technologies
+  maintainers:
+    - anthony@roussel.dev
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: tomcat9
+  visiblename: apache-tomcat
+  version: 9.0.88
+  origversion: null
+  status: outdated
+  summary: An implementation of the Java Servlet and JavaServer Pages technologies
+  maintainers:
+    - anthony@roussel.dev
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: nix_stable_24_11
   srcname: tomcat
@@ -4440,8 +4429,20 @@
   licenses:
     - Apache-2.0
   vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.tomcat.Tomcat
+  binname: org.apache.tomcat.Tomcat
+  visiblename: Tomcat
+  version: 7.0.22
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
 - repo: nix_stable_26_05
-  srcname: tomcat
+  srcname: tomcat11
   visiblename: apache-tomcat
   version: 11.0.24
   origversion: null
@@ -4600,54 +4601,6 @@
   srcname: org.apache.tomcat.Tomcat
   binname: org.apache.tomcat.Tomcat
   visiblename: Tomcat
-  version: 7.0.16
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.tomcat.Tomcat
-  binname: org.apache.tomcat.Tomcat
-  visiblename: Tomcat
-  version: 7.0.19
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.tomcat.Tomcat
-  binname: org.apache.tomcat.Tomcat
-  visiblename: Tomcat
-  version: 7.0.20
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.tomcat.Tomcat
-  binname: org.apache.tomcat.Tomcat
-  visiblename: Tomcat
-  version: 7.0.22
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.tomcat.Tomcat
-  binname: org.apache.tomcat.Tomcat
-  visiblename: Tomcat
   version: 7.0.26
   origversion: null
   status: legacy
@@ -4721,6 +4674,42 @@
   binname: org.apache.tomcat.Tomcat
   visiblename: Tomcat
   version: 7.0.37
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.tomcat.Tomcat
+  binname: org.apache.tomcat.Tomcat
+  visiblename: Tomcat
+  version: 7.0.39
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.tomcat.Tomcat
+  binname: org.apache.tomcat.Tomcat
+  visiblename: Tomcat
+  version: 7.0.42
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.tomcat.Tomcat
+  binname: org.apache.tomcat.Tomcat
+  visiblename: Tomcat
+  version: 7.0.47
   origversion: null
   status: legacy
   licenses:
@@ -4817,18 +4806,6 @@
   binname: org.apache.tomcat.Tomcat
   visiblename: Tomcat
   version: 7.0.65
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.tomcat.Tomcat
-  binname: org.apache.tomcat.Tomcat
-  visiblename: Tomcat
-  version: 7.0.68
   origversion: null
   status: legacy
   licenses:
@@ -6488,26 +6465,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tomcat7
-  binnames:
-    - libservlet3.0-java
-    - libservlet3.0-java-doc
-  visiblename: tomcat7
-  version: 7.0.78
-  origversion: 7.0.78-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - jakub.adam@ktknet.cz
-    - james.page@ubuntu.com
-    - nomadium@debian.org
-    - tmancill@debian.org
-  categories:
-    - java
-  vulnerable: true
 - repo: openeuler_22_03_lts_sp4
   srcname: tomcat
   binnames:
@@ -6672,6 +6629,29 @@
   categories:
     - Web Services/Application and Web Servers
   vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: tomcat9
+  binnames:
+    - tomcat9-common
+    - tomcat9
+    - tomcat9-user
+    - libtomcat9-java
+    - libtomcat9-embed-java
+    - tomcat9-admin
+    - tomcat9-examples
+    - tomcat9-docs
+  visiblename: tomcat9
+  version: 9.0.43
+  origversion: 9.0.43-2~deb11u10
+  status: legacy
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - tmancill@debian.org
+  categories:
+    - misc
+  vulnerable: true
 - repo: openindiana
   subrepo: hipster
   srcname: apache-tomcat
@@ -6732,6 +6712,29 @@
   categories:
     - Web Services/Application and Web Servers
   vulnerable: true
+- repo: pardus_21
+  subrepo: updates/main
+  srcname: tomcat9
+  binnames:
+    - tomcat9-common
+    - tomcat9
+    - tomcat9-user
+    - libtomcat9-java
+    - libtomcat9-embed-java
+    - tomcat9-admin
+    - tomcat9-examples
+    - tomcat9-docs
+  visiblename: tomcat9
+  version: 9.0.118
+  origversion: 9.0.118-0+deb11u1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - tmancill@debian.org
+  categories:
+    - misc
+  vulnerable: true
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: tomcat6
@@ -6746,22 +6749,6 @@
     - ASL 2.0
   categories:
     - Development/Java
-  vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tomcat9
-  binnames:
-    - libtomcat9-java
-  visiblename: tomcat9
-  version: 9.0.95
-  origversion: 9.0.95-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - tmancill@debian.org
-  categories:
-    - misc
   vulnerable: true
 - repo: openmandriva_rolling
   subrepo: main/release
@@ -7377,52 +7364,6 @@
   categories:
     - Productivity/Networking/Web/Servers
   vulnerable: true
-- repo: pardus_21
-  subrepo: updates/main
-  srcname: tomcat9
-  binnames:
-    - tomcat9-common
-    - tomcat9
-    - tomcat9-user
-    - libtomcat9-java
-    - libtomcat9-embed-java
-    - tomcat9-admin
-    - tomcat9-examples
-    - tomcat9-docs
-  visiblename: tomcat9
-  version: 9.0.118
-  origversion: 9.0.118-0+deb11u1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - tmancill@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: pardus_21
-  subrepo: main
-  srcname: tomcat9
-  binnames:
-    - tomcat9-common
-    - tomcat9
-    - tomcat9-user
-    - libtomcat9-java
-    - libtomcat9-embed-java
-    - tomcat9-admin
-    - tomcat9-examples
-    - tomcat9-docs
-  visiblename: tomcat9
-  version: 9.0.43
-  origversion: 9.0.43-2~deb11u10
-  status: legacy
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - tmancill@debian.org
-  categories:
-    - misc
-  vulnerable: true
 - repo: parrot
   subrepo: parrot-updates/main
   srcname: tomcat10
@@ -7512,12 +7453,12 @@
     - misc
   vulnerable: true
 - repo: pkgsrc_current
-  srcname: www/apache-tomcat85
+  srcname: www/apache-tomcat9
   binname: apache-tomcat
-  visiblename: www/apache-tomcat85
-  version: 8.5.100
+  visiblename: www/apache-tomcat9
+  version: 9.0.91
   origversion: null
-  status: legacy
+  status: outdated
   summary: Implementation of Java Servlet and JavaServer Pages technologies
   maintainers:
     - ryoon@netbsd.org
@@ -7812,12 +7753,12 @@
     - www
   vulnerable: true
 - repo: pkgsrc_current
-  srcname: www/apache-tomcat9
+  srcname: www/apache-tomcat85
   binname: apache-tomcat
-  visiblename: www/apache-tomcat9
-  version: 9.0.91
+  visiblename: www/apache-tomcat85
+  version: 8.5.100
   origversion: null
-  status: outdated
+  status: legacy
   summary: Implementation of Java Servlet and JavaServer Pages technologies
   maintainers:
     - ryoon@netbsd.org
@@ -7829,13 +7770,6 @@
   visiblename: tomcat
   version: 11.0.18
   origversion: 11.0.18-6
-  status: outdated
-  vulnerable: true
-- repo: pld
-  srcname: tomcat9
-  visiblename: tomcat9
-  version: 9.0.115
-  origversion: 9.0.115-10
   status: outdated
   vulnerable: true
 - repo: pureos_amber
@@ -7885,21 +7819,6 @@
     - tmancill@debian.org
   categories:
     - java
-  vulnerable: true
-- repo: rocky_8
-  subrepo: AppStream
-  srcname: tomcat
-  visiblename: tomcat
-  version: 9.0.87
-  origversion: 1:9.0.87-1.el8_10.3
-  status: legacy
-  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
-  maintainers:
-    - infrastructure@rockylinux.org
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: pureos_byzantium
   subrepo: byzantium/main
@@ -8138,6 +8057,42 @@
   categories:
     - java
   vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tomcat7
+  binnames:
+    - libservlet3.0-java
+    - libservlet3.0-java-doc
+  visiblename: tomcat7
+  version: 7.0.78
+  origversion: 7.0.78-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - jakub.adam@ktknet.cz
+    - james.page@ubuntu.com
+    - nomadium@debian.org
+    - tmancill@debian.org
+  categories:
+    - java
+  vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tomcat9
+  binnames:
+    - libtomcat9-java
+  visiblename: tomcat9
+  version: 9.0.95
+  origversion: 9.0.95-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - tmancill@debian.org
+  categories:
+    - misc
+  vulnerable: true
 - repo: raspbian_testing
   subrepo: main
   srcname: tomcat11
@@ -8182,6 +8137,17 @@
     - twerner@debian.org
   categories:
     - java
+  vulnerable: true
+- repo: spack
+  srcname: tomcat
+  visiblename: tomcat
+  version: 11.0.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - fallback-mnt-spack@repology
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: raspbian_testing
   subrepo: main
@@ -8268,6 +8234,21 @@
   srcname: tomcat
   visiblename: tomcat
   version: 9.0.87
+  origversion: 1:9.0.87-1.el8_10.3
+  status: legacy
+  summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
+  maintainers:
+    - infrastructure@rockylinux.org
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: rocky_8
+  subrepo: AppStream
+  srcname: tomcat
+  visiblename: tomcat
+  version: 9.0.87
   origversion: 1:9.0.87-1.el8_10.4
   status: legacy
   summary: Apache Servlet/JSP Engine, RI for Servlet 4.0/JSP 2.3 API
@@ -8322,6 +8303,16 @@
     - ASL 2.0
   categories:
     - Unspecified
+  vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: tomcat7
+  visiblename: tomcat7
+  version: 7.0.109
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: rocky_9
   subrepo: AppStream
@@ -8468,6 +8459,26 @@
   categories:
     - Development/Java
   vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: tomcat8
+  visiblename: tomcat8
+  version: 8.5.100
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: scoop
+  subrepo: versions
+  binname: tomcat6
+  visiblename: tomcat6
+  version: 6.0.53
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache-2.0
+  vulnerable: true
 - repo: slackbuilds
   srcname: system/apache-tomcat
   visiblename: system/apache-tomcat
@@ -8478,46 +8489,6 @@
     - pprkut@slackbuilds.org
   categories:
     - system
-  vulnerable: true
-- repo: spack
-  srcname: tomcat
-  visiblename: tomcat
-  version: 11.0.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-spack@repology
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: tomcat6
-  binnames:
-    - tomcat6-common
-    - tomcat6
-    - tomcat6-user
-    - libtomcat6-java
-    - libservlet2.4-java
-    - libservlet2.5-java
-    - libservlet2.5-java-doc
-    - tomcat6-admin
-    - tomcat6-examples
-    - tomcat6-docs
-    - tomcat6-extras
-  visiblename: tomcat6
-  version: 6.0.39
-  origversion: 6.0.39-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - drazzib@debian.org
-    - ludovic.claude@laposte.net
-    - miguel@miguel.cc
-    - tmancill@debian.org
-    - twerner@debian.org
-  categories:
-    - universe/web
   vulnerable: true
 - repo: ubuntu_14_04
   subrepo: trusty-updates/main
@@ -8566,6 +8537,35 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - drazzib@debian.org
+    - ludovic.claude@laposte.net
+    - miguel@miguel.cc
+    - tmancill@debian.org
+    - twerner@debian.org
+  categories:
+    - universe/web
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: tomcat6
+  binnames:
+    - tomcat6-common
+    - tomcat6
+    - tomcat6-user
+    - libtomcat6-java
+    - libservlet2.4-java
+    - libservlet2.5-java
+    - libservlet2.5-java-doc
+    - tomcat6-admin
+    - tomcat6-examples
+    - tomcat6-docs
+    - tomcat6-extras
+  visiblename: tomcat6
+  version: 6.0.39
+  origversion: 6.0.39-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
     - drazzib@debian.org
     - ludovic.claude@laposte.net
     - miguel@miguel.cc
@@ -9097,20 +9097,6 @@
   categories:
     - universe/misc
   vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apache-tomcat
-  binname: apache-tomcat-doc
-  visiblename: apache-tomcat-doc
-  version: 9.0.106
-  origversion: 9.0.106_1
-  status: outdated
-  summary: Open source implementation of the Java Servlet - Documentation
-  maintainers:
-    - maldridge@voidlinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: tomcat10
@@ -9416,6 +9402,20 @@
   origversion: 9.0.106_1
   status: outdated
   summary: Open source implementation of the Java Servlet
+  maintainers:
+    - maldridge@voidlinux.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apache-tomcat
+  binname: apache-tomcat-doc
+  visiblename: apache-tomcat-doc
+  version: 9.0.106
+  origversion: 9.0.106_1
+  status: outdated
+  summary: Open source implementation of the Java Servlet - Documentation
   maintainers:
     - maldridge@voidlinux.org
   licenses:
