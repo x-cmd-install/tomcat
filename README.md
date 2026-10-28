@@ -14,12 +14,12 @@ x install tomcat
 
 ## Code insight
 
-Total: **491,593** lines of code across **3355** files in the top 5 languages.
+Total: **492,868** lines of code across **3363** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 418,142 | 223,565 | 102,826 | 2999 |
-| Xml | 55,466 | 5,690 | 5,547 | 228 |
+| Java | 419,638 | 224,324 | 103,042 | 3007 |
+| Xml | 55,245 | 5,660 | 5,511 | 228 |
 | JavaScript | 4,444 | 686 | 437 | 18 |
 | Svg | 3,888 | 132 | 84 | 8 |
 | Html | 3,887 | 1,606 | 462 | 102 |
@@ -30,8 +30,8 @@ Overall score: **6.1 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (0/10) — Found 0/28 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,264 · **Forks**: 5,408 · **Open issues**: 0 · **Contributors**: 169
+- **Stars**: 8,266 · **Forks**: 5,411 · **Open issues**: 0 · **Contributors**: 169
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 342 · **Open PRs**: 55 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29896
+- **Releases**: 0 · **Merged PRs**: 343 · **Open PRs**: 56 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29926
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 16 | 24 | 0 | 0 | 570 |
-| last60d | 2026-08-28 | 0 | 20 | 28 | 0 | 0 | 832 |
-| 90d | 2026-07-29 | 0 | 36 | 30 | 0 | 0 | 957 |
-| last180d | 2026-04-30 | 0 | 49 | 32 | 0 | 0 | 1507 |
-| 360d | 2025-11-01 | 0 | 100 | 43 | 0 | 0 | 1940 |
-| last720d | 2024-11-06 | 0 | 147 | 45 | 0 | 0 | 3138 |
+| 30d | 2026-09-28 | 0 | 16 | 25 | 0 | 0 | 600 |
+| last60d | 2026-08-29 | 0 | 21 | 29 | 0 | 0 | 862 |
+| 90d | 2026-07-30 | 0 | 36 | 31 | 0 | 0 | 987 |
+| last180d | 2026-05-01 | 0 | 50 | 33 | 0 | 0 | 1537 |
+| 360d | 2025-11-02 | 0 | 99 | 44 | 0 | 0 | 1970 |
+| last720d | 2024-11-07 | 0 | 148 | 46 | 0 | 0 | 3158 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for tomcat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:34:50Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T06:08:46Z._
