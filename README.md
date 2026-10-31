@@ -14,12 +14,12 @@ x install tomcat
 
 ## Code insight
 
-Total: **501,078** lines of code across **3396** files in the top 5 languages.
+Total: **503,235** lines of code across **3404** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 427,609 | 228,125 | 104,235 | 3040 |
-| Xml | 55,484 | 5,660 | 5,510 | 228 |
+| Java | 429,725 | 229,158 | 104,439 | 3048 |
+| Xml | 55,525 | 5,660 | 5,509 | 228 |
 | JavaScript | 4,444 | 686 | 437 | 18 |
 | Svg | 3,888 | 132 | 84 | 8 |
 | Html | 3,887 | 1,606 | 462 | 102 |
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,267 · **Forks**: 5,411 · **Open issues**: 0 · **Contributors**: 169
+- **Stars**: 8,268 · **Forks**: 5,411 · **Open issues**: 0 · **Contributors**: 169
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 343 · **Open PRs**: 55 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 29990
+- **Releases**: 0 · **Merged PRs**: 343 · **Open PRs**: 58 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 30031
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 0 | 15 | 27 | 0 | 0 | 664 |
-| last60d | 2026-08-31 | 0 | 20 | 31 | 0 | 0 | 926 |
-| 90d | 2026-08-01 | 0 | 36 | 33 | 0 | 0 | 1051 |
-| last180d | 2026-05-03 | 0 | 50 | 35 | 0 | 0 | 1601 |
-| 360d | 2025-11-04 | 0 | 99 | 45 | 0 | 0 | 2034 |
-| last720d | 2024-11-09 | 0 | 148 | 47 | 0 | 0 | 3220 |
+| 30d | 2026-10-01 | 0 | 15 | 30 | 0 | 0 | 705 |
+| last60d | 2026-09-01 | 0 | 20 | 34 | 0 | 0 | 967 |
+| 90d | 2026-08-02 | 0 | 34 | 36 | 0 | 0 | 1092 |
+| last180d | 2026-05-04 | 0 | 50 | 38 | 0 | 0 | 1642 |
+| 360d | 2025-11-05 | 0 | 98 | 48 | 0 | 0 | 2075 |
+| last720d | 2024-11-10 | 0 | 148 | 50 | 0 | 0 | 3258 |
 
 ## Distribution status
 
-Reported by **624** distros on [repology.org](https://repology.org/project/tomcat). **17** are ✅ on the latest upstream release, **237** are ⚠️ on an older version.
+Reported by **625** distros on [repology.org](https://repology.org/project/tomcat). **17** are ✅ on the latest upstream release, **237** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -70,7 +70,7 @@ Reported by **624** distros on [repology.org](https://repology.org/project/tomca
 | Debian 13 | `10.1.55` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `10.1.40` | 🪦 legacy |
 | Ubuntu 24.04 LTS | `10.1.16` | 🪦 legacy |
-| Arch | `9.0.123` | 🪦 legacy |
+| Arch | `10.1.61` | ⚠️ outdated |
 | Homebrew | `11.0.27` | ✅ latest |
 | Fedora rawhide | `10.1.61` | ⚠️ outdated |
 | Nix unstable | `11.0.24` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for tomcat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T06:09:46Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T06:06:12Z._
