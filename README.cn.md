@@ -14,24 +14,24 @@ x install tomcat
 
 ## 代码洞察
 
-合计: **539,443** 行代码（覆盖前 5 种语言、共 **3636** 个文件）。
+合计: **540,906** 行代码（覆盖前 5 种语言、共 **3644** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Java | 466,539 | 246,416 | 111,071 | 3272 |
-| Xml | 54,918 | 5,849 | 5,523 | 236 |
+| Java | 467,567 | 246,863 | 111,324 | 3280 |
+| Xml | 55,353 | 5,842 | 5,540 | 236 |
 | JavaScript | 4,444 | 686 | 437 | 18 |
 | Svg | 3,888 | 132 | 84 | 8 |
 | Html | 3,887 | 1,606 | 462 | 102 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.1 / 10**
+总评分: **6.2 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (1/10) — Found 4/21 approved changesets -- score normalized to 1
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -42,26 +42,26 @@ x install tomcat
 
 ## 流行度
 
-- **Star**: 8,279 · **Fork**: 5,533 · **开放 issue**: 0 · **贡献者**: 170
+- **Star**: 8,279 · **Fork**: 5,541 · **开放 issue**: 0 · **贡献者**: 172
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 423 · **开放 PR**: 56 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 30523
+- **发布数**: 0 · **已合并 PR**: 432 · **开放 PR**: 51 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 30548
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 85 | 30 | 0 | 0 | 697 |
-| last60d | 2026-09-18 | 0 | 96 | 32 | 0 | 0 | 1331 |
-| 90d | 2026-08-19 | 0 | 103 | 37 | 0 | 0 | 1506 |
-| last180d | 2026-05-21 | 0 | 124 | 38 | 0 | 0 | 1986 |
-| 360d | 2025-11-22 | 0 | 173 | 47 | 0 | 0 | 2534 |
-| last720d | 2024-11-27 | 0 | 225 | 49 | 0 | 0 | 3697 |
+| 30d | 2026-10-20 | 0 | 92 | 27 | 0 | 0 | 724 |
+| last60d | 2026-09-20 | 0 | 105 | 29 | 0 | 0 | 1358 |
+| 90d | 2026-08-21 | 0 | 112 | 32 | 0 | 0 | 1533 |
+| last180d | 2026-05-23 | 0 | 133 | 33 | 0 | 0 | 2013 |
+| 360d | 2025-11-24 | 0 | 181 | 42 | 0 | 0 | 2561 |
+| last720d | 2024-11-29 | 0 | 232 | 44 | 0 | 0 | 3707 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/tomcat) 上共有 **627** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**245** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/tomcat) 上共有 **609** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**241** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -73,7 +73,7 @@ x install tomcat
 | Arch | `10.1.61` | ⚠️ outdated |
 | Homebrew | `11.0.29` | ✅ latest |
 | Fedora rawhide | `10.1.61` | ⚠️ outdated |
-| Nix unstable | `11.0.26` | ⚠️ outdated |
+| Nix unstable | `11.0.29` | ✅ latest |
 | Void | `9.0.106` | ⚠️ outdated |
 | Alpine edge | `9.0.123` | ⚠️ outdated |
 | openSUSE Tumbleweed | `9.0.123` | ⚠️ outdated |
@@ -87,4 +87,4 @@ tomcat 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T08:18:49Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T09:56:11Z._
