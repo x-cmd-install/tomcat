@@ -2,12 +2,12 @@ about:
   description: "Apache Tomcat"
   license: Apache-2.0
   homepage: https://tomcat.apache.org
-  head: 82d2c7f
+  head: 11f173c
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:45:07Z
+  collectedAt: 2026-11-28T08:06:59Z
 timeline:
   created: 2011-10-01
   lastCommit: 2026-11-27
@@ -17,13 +17,13 @@ timeline:
 popularity:
   star: 8283
   watcher: 467
-  fork: 5599
+  fork: 5598
   release: 0
   contributor: 172
-  pullRequest: 1266
+  pullRequest: 1267
   issue: 0
 language:
-  Java: 31837740
+  Java: 31874082
   HTML: 315040
   JavaScript: 223608
   CSS: 63679
@@ -34,76 +34,76 @@ language:
   Perl: 17780
   Dockerfile: 2661
   C: 1170
-totalBytes: 32648885
+totalBytes: 32685227
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
-    mergedPR: 71
-    openPR: 42
+    mergedPR: 69
+    openPR: 43
     closedIssue: 0
     openIssue: 0
-    commit: 609
+    commit: 621
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 105
-    openPR: 44
+    openPR: 45
     closedIssue: 0
     openIssue: 0
-    commit: 1395
+    commit: 1407
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 110
-    openPR: 46
+    openPR: 47
     closedIssue: 0
     openIssue: 0
-    commit: 1604
+    commit: 1616
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 133
-    openPR: 48
+    openPR: 49
     closedIssue: 0
     openIssue: 0
-    commit: 2032
+    commit: 2044
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
     mergedPR: 181
-    openPR: 57
+    openPR: 58
     closedIssue: 0
     openIssue: 0
-    commit: 2644
+    commit: 2656
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
     mergedPR: 231
-    openPR: 59
+    openPR: 60
     closedIssue: 0
     openIssue: 0
-    commit: 3734
+    commit: 3742
 total:
   release: 0
   mergedPR: 433
-  openPR: 66
+  openPR: 67
   closedIssue: 0
   openIssue: 0
-  commit: 30633
+  commit: 30641
 ---
 path: /home/runner/.x-repo/github.com/apache/tomcat
-collectedAt: 2026-11-27T09:45:49Z
+collectedAt: 2026-11-28T08:07:41Z
 loc:
   Java:
-    code: 475113
-    comments: 249255
-    blanks: 112781
-    files: 3297
+    code: 475738
+    comments: 249401
+    blanks: 112932
+    files: 3299
   Xml:
-    code: 55657
+    code: 55699
     comments: 5849
-    blanks: 5539
+    blanks: 5540
     files: 236
   JavaScript:
     code: 4444
@@ -181,10 +181,10 @@ loc:
     blanks: 791
     files: 45
 total:
-  code: 548867
-  comments: 263609
-  blanks: 121712
-  files: 3776
+  code: 549534
+  comments: 263755
+  blanks: 121864
+  files: 3778
 ---
 date: "2026-11-23"
 repo:
